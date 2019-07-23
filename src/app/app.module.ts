@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SideBarComponent } from './views/side-bar/side-bar.component';
@@ -9,6 +9,7 @@ import { AboutComponent } from './views/about/about.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { ResumeComponent } from './views/resume/resume.component';
 import { PortfolioComponent } from './views/portfolio/portfolio.component';
+import { BannerComponent } from './share/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,13 @@ import { PortfolioComponent } from './views/portfolio/portfolio.component';
     AboutComponent,
     ContactComponent,
     ResumeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
