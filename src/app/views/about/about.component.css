@@ -1,0 +1,28 @@
+.containerHeading{
+
+    background-color: #1D828E;
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    text-align:left;
+    padding: 20px
+}
+.containerBody{
+
+    background-color:lightgray;
+    min-height: 720px;
+}
+
+.containerBottom{
+
+    background-color: #186B75;
+    height: 70px;
+}
+
+.h1Bottom {
+    color: white;
+    text-align:left;
+    padding: 13px
+}

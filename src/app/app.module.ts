@@ -10,6 +10,7 @@ import { ContactComponent } from './views/contact/contact.component';
 import { ResumeComponent } from './views/resume/resume.component';
 import { PortfolioComponent } from './views/portfolio/portfolio.component';
 import { BannerComponent } from './share/banner/banner.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BannerComponent } from './share/banner/banner.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
