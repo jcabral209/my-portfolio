@@ -7,9 +7,13 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
 
+   key = '1Ejdt6pVF6dPgDD2Hv6kQSREN0DMXQo3O12s1lFfMbnA';
+   apiURLpt1 = 'https://spreadsheets.google.com/feeds/list/';
+   apiURLpt2 = '/1/public/values?alt=json';
+
   constructor(public http: HttpClient) { }
 
-  getURL(url: string): Observable<any> {
-    return this.http.get<any>(url);
+  getURL(): Observable<any> {
+    return this.http.get<any>(this.apiURLpt1 + this.key + this.apiURLpt2);
   }
 }
