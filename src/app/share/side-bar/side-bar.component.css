@@ -15,19 +15,13 @@ h5 {
   color: #707070;
 }
 
-.envelope {
-	/* color: #301504; */
-	color: red
-}
-
 .btn {
-	width: 100px;
-	margin-left: -80px
-	
+	width: 130px
 }
 
-.icon {
-	margin-left: 10px
+i {
+  display: inline-block;
+  margin-right: 1em;
 }
 
 hr {
