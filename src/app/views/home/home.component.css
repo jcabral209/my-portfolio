@@ -6,3 +6,31 @@
     height: 96vmin;
     width: auto
    }
+
+   .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h2 {
+    color: #18f3bced; 
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 4em;
+    white-space: nowrap;/*Evitar saltos de línea*/
+    overflow: hidden;
+    width: 20em;
+    animation: keyframes 5s steps(500) infinite; 
+  }
+  
+  @keyframes keyframes{ 
+    
+    from{ width: 0px;} 
+    
+  } 
+
+  .p {
+      color: black
+  }

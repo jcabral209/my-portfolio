@@ -16,7 +16,6 @@ h1 {
 }
 
 .containerBottom{
-
     background-color: #186B75;
     height: 70px;
 }
@@ -26,3 +25,21 @@ h1 {
     text-align:left;
     padding: 13px
 }
+
+h4 {
+    padding: 25px;
+    color: #000000; 
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    white-space: nowrap;/*Avoid line jumping*/
+    overflow: hidden;
+    width: 37em;
+    animation: keyframes 5s steps(500) ; 
+  }
+  
+  @keyframes keyframes{ 
+    
+    from{ width: 0px;} 
+    
+  } 
