@@ -81,7 +81,8 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 8px;
-  width: 150px;
+  max-width: 280px;
+  max-height: 130px
 }
 
 .iconBottom {
