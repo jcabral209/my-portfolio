@@ -4,30 +4,55 @@
     </div>
 </div>
 <div class="container-fluid containerBody">
-    <div class="col-12">
+    <div class="row">
+        <div *ngFor='let list of projectInfo' class="col-4 mt-4">
 
-<div class="flip-card">
-    <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-        </div>
-        <div class="flip-card-back">
-            <h1>John Doe</h1>
-            <p>Architect & Engineer</p>
-            <p>We love that guy</p>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="assets/thumbnail/{{list.proImage}}" alt="Avatar" style="width:280px;height:130px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Title: <i>{{list.proName}}</i></h5>
+                            <!-- <p class="card-text">Trivia</p> -->
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <h5 class="card-title">Description</h5>
+                            <p class="card-text">{{list.proDescription}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h5 class="card-title">Accomplisment</h5>
+                        <ul>
+                            <li *ngIf="list.accomp1">{{list.accomp1}}</li>
+                            <li *ngIf="list.accomp2">{{list.accomp2}}</li>
+                            <li *ngIf="list.accomp3">{{list.accomp3}}</li>
+                            <li *ngIf="list.accomp4">{{list.accomp4}}</li>
+                            <li *ngIf="list.accomp5">{{list.accomp5}}</li>
+                            <li *ngIf="list.accomp6">{{list.accomp6}}</li>
+                            <li *ngIf="list.accomp7">{{list.accomp7}}</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-6 iconBottom">
+                                <a href="{{list.onlineLink}}" target="_blank">
+                                    <i class="fa fa-link fa-3x" style="color:#000000"></i> </a>
+                            </div>
+                            <div class="col-6 iconBottom">
+                                <a href="{{list.githubLink}}" target="_blank">
+                                    <i class="fa fa-github fa-3x" style="color:#000000"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-
-    </div>
-</div>
 
 <div class="container-fluid containerBottom">
     <div class="col-12">
         <h1 class="h1Bottom">skills</h1>
     </div>
 </div>
-
 
 <app-banner></app-banner>
