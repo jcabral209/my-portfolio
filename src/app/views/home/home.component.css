@@ -1,3 +1,5 @@
+
+
 .jumbotron{
     background-image: url(/assets/fatos-bytyqi-Agx5_TLsIf4-unsplash.jpg);
     background-size: cover;
@@ -15,7 +17,8 @@
   }
 
   h2 {
-    font-family:sans-serif;
+    /* font-family:sans-serif; */
+    /* font-family: 'Shadows Into Light', cursive; */
     font-weight:bolder;
     font-size: 4em;
     white-space: nowrap;/*Evitar saltos de línea*/

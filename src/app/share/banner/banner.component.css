@@ -5,14 +5,14 @@
   
   #container {
     
-    height: 160px;
+    height: 140px;
     overflow: hidden;
-    margin: auto;
+    margin:-40px 0 0 0;
     background: white;
   }
 
   .photobanner {
-    height: 360px;
+    height: 80px;
     width: 2480px;
     margin-bottom: 0px;
   }
