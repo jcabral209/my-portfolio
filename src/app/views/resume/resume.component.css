@@ -63,3 +63,8 @@ iframe {
         filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
     }
     
+    .h1Bottom {
+        color: white;
+        text-align:left;
+        padding: 13px
+    }
