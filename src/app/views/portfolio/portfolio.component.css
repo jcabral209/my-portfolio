@@ -24,6 +24,7 @@ h1 {
 .containerBody{
 
     background-color:lightgray;
+    /* background-color: #1D828E; */
     min-height: 720px;
 }
 
@@ -121,8 +122,8 @@ h1 {
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  /* border: 1px solid #ddd;
+  border-radius: 4px; */
   padding: 8px;
   max-width: 280px;
   max-height: 130px
