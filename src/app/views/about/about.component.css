@@ -56,11 +56,12 @@ h3 {
     color: #1D828E; 
     font-family:sans-serif;
     font-weight: bold;
+    -webkit-text-stroke: 1px black;
     font-size: 2em;
     white-space: nowrap;/*Avoid line jumping*/
     overflow: hidden;
     width: 37em;
-    animation: keyframes 5s steps(500) ; 
+    animation: keyframes 6s steps(500) ; 
   }
   
   @keyframes keyframes{ 
